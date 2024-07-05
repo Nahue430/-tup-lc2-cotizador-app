@@ -9,6 +9,9 @@
     <link rel="icon" type="image/svg+xml" href="../icon/coins-solid.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/pages/contact.css">
+    <script src="js/common.js" defer></script>
+    <script src="js/pages/contact.js" defer></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -45,13 +48,13 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="opinion">
+                    <div id="opinionContainer" class="opinion"><!--Cambiar esto-->
                         <div class="opinion-img">
-                            <img src="img/foto cv.jpg"alt="Nahuel Gonzalez Foto">
+                            <img src="img/fran.png" alt="Francisco">
                         </div>
                         <div class="opinion-nombre">
-                            <h2>Nahuel Gonzalez</h2>
-                            <p>Formamos un gran equipo con Poli Veliz Francisco y Ninotti Cristian.</p>
+                            <h2>Poli Veliz Francisco Alberto</h2>
+                            <p>Formamos un gran equipo con Ninotti Cristian y Gonzalez Nahuel.</p>
                         </div>
                     </div>
                 </section>
@@ -89,21 +92,22 @@
                                             <div class="label-container">
                                                 <label for="message">Mensaje:</label>
                                             </div>
-                                            <textarea id="message" name="message" rows="15" required></textarea>
+                                            <textarea id="message" name="message" rows="12" required></textarea>
 
                                         </div>
+                                        <div class="buttons">
+                                            <button type="reset" class="button">LIMPIAR</button>
+                                            <button type="submit" class="button1">ENVIAR</button>
+                                        </div>
                                     </form>
-                                    <div class="buttons">
-                                        <button type="reset" class="button">LIMPIAR</button>
-                                        <button type="submit" class="button1">ENVIAR</button>
-                                    </div>
+                                    
                                 </div>
                                 <div class="datos2">
                                     <div class="texto">
                                         <p>Si tiene alguna sugerencia por favor complete el siguiente formulario y
                                             envíelo. Lo contactaremos a la brevedad.</p>
                                         <p><br>Esta Web está desarrollada utilizando
-                                            <a href="http://dolarpi.com/">DolarPI</a>.<br>
+                                            <a href="https://dolarapi.com">DolarAPI</a>.<br>
                                         </p>
                                     </div>
                                     <div class="section_total">
@@ -153,7 +157,7 @@
                             <p>ZEBALLOS 1341 - S2000BQA - </p>
                             <p>ROSARIO</p>
                             <p>0341 - 4481871</p>
-                            <a class="escribanos-footer" type="email" href="nahuelgonzalez775@gmail.com">
+                            <a class="escribanos-footer" type="email" href="polivelizfrancisco@gmail.com">
                                 <p><b>¡Escríbanos!</b></p>
                             </a>
                         </li>
@@ -161,7 +165,7 @@
                     <ul class="desarrollado-por">
                         <li>
                             <p><b>Desarrollado por:</b></p>
-                            <p>Gonzalez Nahuel</p> <!--Nombre de cada uno y numero de legajo (Sysacad)-->
+                            <p>Poli Veliz Francisco Alberto (53393)</p> <!--Nombre de cada uno y numero de legajo (Sysacad)-->
                             <p>TUP 08 - 2024</p>
                         </li>
                     </ul>

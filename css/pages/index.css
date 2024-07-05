@@ -73,6 +73,10 @@ main h2 {
     font-size: 2em;
 }
 
+.fa-filter:hover{
+    color:black
+}
+
 .actualizacion-datos-fecha-hora {
     display: flex;
     justify-content: flex-end;
@@ -84,13 +88,13 @@ main h2 {
     display: flex;
     border: 3px #E3E3E3 solid;
     background-color: #F2F2F2;
-    height: 18rem;
+    height: 23.75rem;
     border-radius: 50px 25px 50px 25px;
-    width: 93.25%;
-    padding: 2.00em 0.5em 1.75em 2em;
+    width: 97%;
     flex-direction: column;
+    padding: 0.9em;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 .item {
@@ -180,7 +184,7 @@ i.fa-solid.fa-star {
 .favoritos {
     display: flex;
     justify-content: flex-start;
-    padding-top: 2em;
+    /*padding-top: 2em;*/
 }
 
 .final-index {
@@ -201,6 +205,79 @@ i.fa-solid.fa-star {
     padding: 0.20em;
 }
 
+/*ACÁ AGREGUÉ PARA EL LINK DE DOLAR API*/
+.item3 a{
+    color: white;
+    text-decoration: none;
+}
+
 .fa-exclamation {
     font-size: 1.5em;
 }
+
+.footer-lista ul li a:visited {
+    color: black;
+  }
+  
+  .footer-lista ul li a {
+    color: black;
+  }
+
+  @media (max-width: 768px) {
+    .plantilla-precios {
+        flex-direction: column;
+    }
+
+    .item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .footer-lista {
+        flex-direction: column;
+    }
+
+    .footer-lista ul {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-principal {
+        padding: 0.5rem;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .contenido-central {
+        padding: 0.5rem;
+    }
+
+    .filtro {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtro label, .filtro select {
+        margin-bottom: 0.5rem;
+    }
+
+    .plantilla-precios {
+        gap: 0.5rem;
+    }
+}
+
+
+/*Aca pruebo lo de las estrellas*/
+/* Agregar nuevo estilo para la estrella activada */
+.fa-star.active:before {
+    color: #4672C4; /* Cambio de color a azul más oscuro */
+}
+
+/* Cambiar para hoover */
+.fa-star:hover:before {
+    color: #4672C4;
+}
+
