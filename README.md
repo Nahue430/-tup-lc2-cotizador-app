@@ -5,5 +5,6 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
+  <li>Javascript</li>
 </ul>
 <h4><b>Grupo: Gonzalez Nahuel, Poli Veliz Francisco, Ninotti Cristian</b></h4>
