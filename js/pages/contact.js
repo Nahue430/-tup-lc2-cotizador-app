@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Objeto con los datos del email a enviar
         const emailParams = {
-            to: 'hgerardo@gmail.com, sbruselario@gmail.com', // Direcciones separadas por coma
+            to: 'hgerardo@gmail.com, sbruselario@gmail.com',// Direcciones separadas por coma
             from_name: name,
             from_email: email,
             message: message
@@ -37,5 +37,3 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     });
 });
-
-

@@ -67,7 +67,6 @@ tr {
     background-color: white;
     display: flex;
     flex-direction: row;
-    
 }
 
 .titulo-archivo {
@@ -102,7 +101,7 @@ tr {
     display: flex;
     flex-direction: column;
     flex: 3;
-    height: 100%;
+    height:100%;
     border-radius: 5px;
     width: 90%;
 }
@@ -172,17 +171,7 @@ td {
     color: black;
   }
 
-  @media (min-width: 1366px) {
 
-    .opinion-nombre p{
-        font-size: 12px;
-    }
-    .opinion-nombre h2{
-        font-size: 15px;
-    }
-  
-  }
-  
   /* Mobile */
   @media (max-width: 480px) {
     .contenedor-principal {

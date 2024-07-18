@@ -5,8 +5,6 @@
   height: 100%;
 }
 
-
-
 .contenedor-principal {
   display: flex;
   justify-content: center;
@@ -16,8 +14,9 @@
   background-color: white;
   padding: 1em;
   margin: 1em;
-  
 }
+
+
 .migas-pan {
   display: flex;
   justify-content: flex-end;
@@ -34,6 +33,7 @@
 
 main {
   height: 80%;
+  width: 98%;
 }
 
 a.link-inicio-migas{
@@ -122,7 +122,7 @@ a.link-inicio-migas{
 
 .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .button {
@@ -171,7 +171,6 @@ a.link-inicio-migas{
   height: 13em;
   border: 0.125em solid #E3E3E3;
   border-radius: 0.3125em;
-  
 }
 
 .section {
@@ -206,7 +205,6 @@ a.link-inicio-migas{
 .general {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 
 .datos2 {
@@ -245,6 +243,7 @@ label {
   height: 9em; /* Altura fija del textarea */
 }
 
+
 .contenido-central {
   width: 50%;
   height: 100%;
@@ -258,7 +257,7 @@ label {
 
 
 
-@media (max-width: 1366px) {
+@media (min-width: 1366px) {
   .plantilla-precios {
       flex-direction: column;
   }
@@ -303,3 +302,6 @@ label {
 
 
 }
+
+
+
